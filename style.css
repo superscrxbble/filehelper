@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #131313;
+	color: #ff4bf0;
+}
+
+.astolforicchbox {
+	padding: 20px;
+	border-radius: 8px;
+	border-style: solid;
+	border-radius: 2.5px;
+	border-width: 5px;
+	border-color: rgb(255, 75, 201);
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+input[type="file"]+label {
+	background-color: #131313;
+	color: #ff4bf0;
+	padding: 15px 30px;
+	border-radius: 5px;
+	border: 2px solid #ff4bf0;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin: 10px;
+}
+
+input[type="file"]+label:hover {
+	background-color: #ff4bf0;
+	color: #131313;
+	border-color: #575757;
+	transform: scale(1.1);
+}
+
+#progressContainer {
+	width: 100%;
+	background-color: #f3f3f3;
+	margin-top: 10px;
+}
+
+#progressBar {
+	height: 20px;
+	width: 0;
+	background-color: rgb(255, 64, 245);
+	text-align: center;
+	color: white;
+	line-height: 20px;
+}
+
+p {
+	text-align: center;
+}
+
+#copy,
+#domainselecter {
+	background-color: #131313;
+	color: #ff4bf0;
+	padding: 10px;
+	border-style: solid;
+	outline: none;
+	border-color: #ff4bf0;
+	justify-self: center;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	transition: all 0.2s ease-in-out;
+	border-radius: 5px;
+}
+
+#domainselecter {
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
+
+#copy:hover {
+	background-color: #ff4bf0;
+	color: #131313;
+	border-color: #575757;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+#divforthecopybutton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#fileUrl {
+	color: #ff4bf0;
+}
+
+h2 {
+	text-align: center;
+}
+
+#youlikekissingboysdontyou {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 40%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+}
+
+footer a {
+	color: white;
+}
+
+@media (max-width: 1200px) {
+	#youlikekissingboysdontyou {
+		height: 30%;
+	}
+}
+
+@media (max-width: 768px) {
+	#youlikekissingboysdontyou {
+		height: 20%;
+	}
+}
+
+@media (max-width: 480px) {
+	#youlikekissingboysdontyou {
+		height: 15%;
+	}
+}
