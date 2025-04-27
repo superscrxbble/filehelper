@@ -32,7 +32,7 @@ function uploadFile(file) {
                 document.getElementById('fileUrl').textContent = response.fileUrl;
                 document.getElementById('copy').onclick = () =>
                     navigator.clipboard.writeText(response.fileUrl)
-                    .then(() => alert("copied!! :3"))
+                    .then(() => alert("copied!!"))
                     .catch(err => alert("error: " + err));
             }
         } else {
