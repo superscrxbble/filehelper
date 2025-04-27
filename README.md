@@ -24,8 +24,8 @@ this repo is made in nodejs, which means you can only host this on a few platfor
 
 ## credits
 
-* [scrxbble](https://github.com/szvy) - main developer
-* [roman](https://github.com/romaniscool99) - helped A TON (did the java)
+* [scrxbble](https://github.com/szvy) - main developer (did the index.html)
+* [roman](https://github.com/romaniscool99) - helped A TON (did the script.js and style.css)
 
 ## license
 this website is registered under the [MIT license](LICENSE)
